@@ -12,4 +12,5 @@ function addInnerHTML(tagToGet, contentToAdd) {
     const getElement = document.querySelector(tagToGet);
     getElement.innerHTML = contentToAdd;
 }
+
 export { createElement, addInnerHTML }
