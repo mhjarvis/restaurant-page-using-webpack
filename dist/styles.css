@@ -4,10 +4,22 @@
     outline: 1px solid red;
 }
 
+/* ==============================================
+                    HEADER
+=============================================== */
 header {
-    height: 200px;
+    display: flex;
+    height: 100px;
     width: 100%;
     background-color: blue;
 
+}
+
+nav {
+    display: flex;
+}
+
+#facebook-link, #instagram-link {
+    height: 32px;
 }
 
