@@ -1,1 +1,1 @@
-console.log("Hello");
+(()=>{"use strict";function e(e,n,a){const i=document.querySelector(e),t=document.createElement(n);t.id=a,i.appendChild(t)}e("#content","header","header"),e("header","span","brand"),e("header","nav","navigation"),e("navigation","div","home"),e("navigation","div","menu"),e("navigation","div","about"),e("header","img","facebook-link"),e("header","img","instagram-link")})();
