@@ -1,1 +1,3 @@
-console.log("Hello");
+import { createNavigation } from "./homepage/createNavigation.js";
+
+createNavigation();
