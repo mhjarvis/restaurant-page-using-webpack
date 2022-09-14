@@ -1,0 +1,13 @@
+@import url(../src/reset.css);
+
+* {
+    outline: 1px solid red;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+
+}
+
