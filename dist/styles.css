@@ -10,6 +10,37 @@
     font-family: 'IM Fell Great Primer SC', serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* ==============================================
+                KRAKEN IMAGE
+=============================================== */
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
+
+#kraken-image {
+    position: absolute;
+    background-image: url(/dist/images/kraken.png);
+    width: 50vw;
+    height: 50vh;
+
+    transform: rotate(-90deg);
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 70%;
+}
+
 /* ==============================================
                     HEADER
 =============================================== */
@@ -19,7 +50,8 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    width: 100%;
+    width: 96vw;
+    overflow: hidden;
 }
 
 #brand {
@@ -28,6 +60,13 @@ header {
 
 nav {
     display: flex;
+    justify-content: space-evenly;
+    min-width: 50%;
+    margin: 0 30px;
+}
+
+#facebook-link {
+    margin-right: 20px;
 }
 
 #facebook-link, #instagram-link {
