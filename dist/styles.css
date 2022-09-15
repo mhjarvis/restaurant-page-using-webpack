@@ -1,18 +1,27 @@
 @import url(../src/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+
 
 * {
     outline: 1px solid red;
 }
 
+:root {
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
 /* ==============================================
                     HEADER
 =============================================== */
+
 header {
     display: flex;
     height: 100px;
     width: 100%;
-    background-color: blue;
+}
 
+#brand {
+    font-size: 3rem;
 }
 
 nav {
