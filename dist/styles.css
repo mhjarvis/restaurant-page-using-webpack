@@ -6,17 +6,17 @@
     outline: 1px solid red;
 }
 
+html {
+    background: url(../dist/images/kraken.png) center center no-repeat;
+}
+
 :root {
     font-family: 'IM Fell Great Primer SC', serif;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     height: 100vh;
     width: 100%;
-    overflow: hidden;
 }
 
 #content {
@@ -30,18 +30,21 @@ body {
 
 main {
     background-color: green;
-    height: 70rem;
+    height: 100%;
 }
 
 #kraken-image {
-    position: absolute;
+    
+/*     position: absolute;
     background-image: url(/dist/images/kraken.png);
     background-repeat: no-repeat;
     height: 800px;
     width: 800px;
     right: 0;
+    margin: 0 auto;
     transform: rotate(-90deg);
-    opacity: 70%;
+    opacity: 30%; */
+    
 }
 
 /* ==============================================
