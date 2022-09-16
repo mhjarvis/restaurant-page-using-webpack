@@ -3,8 +3,8 @@ import { addInnerHTML, createElement } from "./functions";
 const createMain = function () {
     console.log('dog')
 
-createElement('#content', 'main', 'main');
-createElement('main', 'img', 'kraken-image');
+createElement('body', 'main', 'main');
+createElement('#content', 'img', 'kraken-image');
 }
 
 
