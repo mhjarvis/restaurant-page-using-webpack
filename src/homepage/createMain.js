@@ -4,7 +4,7 @@ const createMain = function () {
     console.log('dog')
 
 createElement('#content', 'main', 'main');
-createElement('html', 'img', 'kraken-image');
+createElement('body', 'img', 'kraken-image');
 }
 
 
