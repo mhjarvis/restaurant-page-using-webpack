@@ -4,8 +4,11 @@ const createMain = function () {
     console.log('dog')
 
 createElement('#content', 'main', 'main');
-/* createElement('body', 'img', 'kraken-image');
- */}
+
+createElement('#main', 'div', 'section-left');
+createElement('#main', 'div', 'kraken-container');
+createElement('#kraken-container', 'img', 'kraken-image');
+}
 
 
 export { createMain };
