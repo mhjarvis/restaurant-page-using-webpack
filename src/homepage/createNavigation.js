@@ -1,6 +1,6 @@
 import { addInnerHTML, createElement } from "./functions";
 
-const createNavigation = function() {
+/* const createNavigation = function() {
 
     // create Header element
     createElement('#content', 'header', 'header');
@@ -30,7 +30,7 @@ const createNavigation = function() {
 
     createElement('#social-links', 'img', 'instagram-link');
     const addInstagramImage = document.querySelector('#instagram-link');
-    addInstagramImage.setAttribute('src', './images/instagram.png');
+    addInstagramImage.setAttribute('src', './images/instagram.png'); */
 }
 
 export { createNavigation };

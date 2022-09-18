@@ -19,18 +19,38 @@ body {
     width: 100%;
 }
 
-#content {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #content {
     height: 100vh;
     width: 100%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 1fr 10fr 1fr;
-}
+} */
 
 /* ==============================================
                 KRAKEN IMAGE
 =============================================== */
-
+/* 
 main {
     height: 100%;
     width: 100%;
@@ -59,13 +79,13 @@ main {
     transform: rotate(-90deg);
     object-fit:cover;
     background-repeat: no-repeat;
-}
+} */
 
 /* ==============================================
                     HEADER
 =============================================== */
 
-header {
+/* header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,4 +110,4 @@ nav {
 #facebook-link, #instagram-link {
     height: 32px;
 }
-
+ */
