@@ -3,9 +3,6 @@ import { createMain } from "./homepage/createMain.js";
 
 createNavigation();
 
-
-
-console.log('frist')
 createMain();
 
 
