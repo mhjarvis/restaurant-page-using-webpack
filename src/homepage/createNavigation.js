@@ -3,8 +3,8 @@ import { addInnerHTML, createElement } from "./functions";
 const createNavigation = function() {
 
     // create Header element
-    createElement('#content', 'header', 'header');
-
+/*     createElement('#content', 'header', 'header');
+ */
     // create Logo element
     createElement('header', 'span', 'brand');
     addInnerHTML('#brand', 'The Kraken');

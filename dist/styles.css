@@ -1,5 +1,5 @@
 @import url(../src/reset.css);
-/* @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
 
 
 * {
@@ -29,30 +29,20 @@ body {
 
 main {
     height: 100%;
+
 }
 
 #kraken-image {
-    background-image: url(../dist/images/kraken.png);
     position: absolute;
     height: 800px;
     width: 800px;
-    position: absolute;
+    max-height: 100%;
     right: 0;
     top: 0;
+    margin: 0;
     bottom: 0;
-    margin: auto;
-    transform: rotate(-90deg);
-    
-/*     position: absolute;
-    background-image: url(/dist/images/kraken.png);
-    background-repeat: no-repeat;
-    height: 800px;
-    width: 800px;
-    right: 0;
-    margin: 0 auto;
-    transform: rotate(-90deg);
-    opacity: 30%; */
-    
+    transform: rotate(-90deg);   
+    opacity: 70%; 
 }
 
 /* ==============================================
