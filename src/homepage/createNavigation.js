@@ -31,6 +31,9 @@ import { addInnerHTML, createElement } from "./functions";
     createElement('#social-links', 'img', 'instagram-link');
     const addInstagramImage = document.querySelector('#instagram-link');
     addInstagramImage.setAttribute('src', './images/instagram.png'); */
-}
+
+    let createNavigation = () => {
+        
+    }
 
 export { createNavigation };
