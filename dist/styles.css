@@ -23,11 +23,47 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 10vh 80vh 10vh;
+    
 }
 
 header {
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
 }
+
+header > * {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding: 0 30px;
+}
+
+#brand {
+    font-size: 3rem;
+    width: fit-content
+}
+
+nav {
+
+}
+
+#social-media {
+    width: fit-content;
+}
+
+#social-media img {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+
+
 
 
 
