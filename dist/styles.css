@@ -19,6 +19,15 @@ body {
     width: 100%;
 }
 
+#content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+header {
+    
+}
 
 
 
