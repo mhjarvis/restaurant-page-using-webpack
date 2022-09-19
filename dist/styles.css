@@ -1,13 +1,8 @@
 @import url(../src/reset.css);
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
 
-
 * {
     outline: 1px solid red;
-}
-
-html {
-
 }
 
 :root {
@@ -35,6 +30,10 @@ header {
     width: 100%;
 }
 
+/* ==============================================
+                    HEADER
+=============================================== */
+
 header > * {
     display: flex;
     align-items: center;
@@ -49,10 +48,6 @@ header > * {
     width: fit-content
 }
 
-nav {
-
-}
-
 #social-media {
     width: fit-content;
 }
@@ -63,7 +58,9 @@ nav {
     margin: 0 10px;
 }
 
-
+/* ==============================================
+                    MAIN BODY
+=============================================== */
 
 
 
