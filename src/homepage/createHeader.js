@@ -2,39 +2,29 @@ import { addInnerHTML, createElement } from "./functions";
 
 const createHeader = function() {
 
-}
-
-
-/* const createNavigation = function() {
-
-    // create Header element
+    /* Create header containing element */
     createElement('#content', 'header', 'header');
 
-    // create Logo element
-    createElement('header', 'span', 'brand');
+    /* Create Logo */
+    createElement('#header', 'span', 'brand');       
     addInnerHTML('#brand', 'The Kraken');
 
-    // create Navigation bar with link tags
-    createElement('header', 'nav', 'navigation');
+    /* Create Nav bar and contents */
+    createElement('#header', 'nav', 'nav');
 
-    createElement('#navigation', 'div', 'home');
+    createElement('#nav', 'p', 'home');
     addInnerHTML('#home', 'Home');
-
-    createElement('#navigation', 'div', 'menu');
+    createElement('#nav', 'p', 'menu');
     addInnerHTML('#menu', 'Menu');
+    createElement('#nav', 'p', 'contact');
+    addInnerHTML('#contact', 'Contact');
 
-    createElement('#navigation', 'div', 'about');
-    addInnerHTML('#about', 'About');
-
-    // create facebook/instagram buttons/links
-    createElement('header', 'div', 'social-links')
-
-    createElement('#social-links', 'img', 'facebook-link');
-    const addFacebookImage = document.querySelector('#facebook-link');
-    addFacebookImage.setAttribute('src', './images/facebook.png');
-
-    createElement('#social-links', 'img', 'instagram-link');
-    const addInstagramImage = document.querySelector('#instagram-link');
-    addInstagramImage.setAttribute('src', './images/instagram.png'); */
+    /* Create social media section */
+    createElement('#header', 'div', 'social-media');
+    createElement('#social-media', 'img', 'facebook');
+    document.getElementById('facebook').src = '../dist/images/facebook.png';
+    createElement('#social-media', 'img', 'instagram');
+    document.getElementById('instagram').src = '../dist/images/instagram.png';
+}
 
 export { createHeader };
