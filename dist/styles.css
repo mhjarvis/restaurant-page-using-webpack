@@ -62,10 +62,30 @@ header > * {
                     MAIN BODY
 =============================================== */
 
+#main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 
+}
 
+main > * {
+    height: 100%;
+    width: 50vw;
+}
 
+#left {
 
+}
+
+#right {
+
+}
+
+#kraken-img {
+    
+}
 
 
 
