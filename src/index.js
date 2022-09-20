@@ -1,9 +1,9 @@
 import { createHeader } from "./homepage/createHeader.js";
 import { createMain } from "./homepage/createMain.js";
 
-/* createNavigation();
+createHeader();
 
 createMain();
- */
+
 
 console.log("hello")

@@ -1,5 +1,8 @@
 import { addInnerHTML, createElement } from "./functions";
 
-let createMain = () => {}
+let createMain = () => {
+
+    console.log("test")
+}
 
 export { createMain };
