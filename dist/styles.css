@@ -72,13 +72,19 @@ header > * {
 
 main > * {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #left {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4em;;
+}
+
+#slogan {
+    font-size: 4rem;
+    margin-bottom: 10px;
 }
 
 #right {
