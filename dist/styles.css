@@ -14,6 +14,19 @@ body {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* ==============================================
+                    HEADER
+=============================================== */
+
 #content {
     display: grid;
     grid-template-columns: auto;
@@ -29,10 +42,6 @@ header {
     overflow: hidden;
     width: 100%;
 }
-
-/* ==============================================
-                    HEADER
-=============================================== */
 
 header > * {
     display: flex;
@@ -87,10 +96,6 @@ main > * {
     margin-bottom: 10px;
 }
 
-#right {
-
-}
-
 #kraken-img {
     width: 100%;
     height: 100%;
@@ -105,13 +110,4 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    color: gray;
 }
