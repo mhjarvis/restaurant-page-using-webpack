@@ -1,4 +1,4 @@
-import { createNavigation } from "./homepage/createNavigation.js";
+import { createHeader } from "./homepage/createHeader.js";
 import { createMain } from "./homepage/createMain.js";
 
 /* createNavigation();
