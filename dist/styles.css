@@ -128,3 +128,20 @@ footer {
       object-fit: fill;
     }
   }
+
+/* ==============================================
+                    MENU PAGE
+=============================================== */
+
+#menu-title {
+    font-size: 3rem;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+    width: auto;
+}
