@@ -1,0 +1,147 @@
+@import url(../src/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+
+* {
+/*     outline: 1px solid red;
+ */}
+
+:root {
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* ==============================================
+                    HEADER
+=============================================== */
+
+#content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10vh 80vh 10vh;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
+}
+
+header > * {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding: 0 30px;
+}
+
+#brand {
+    font-size: 3rem;
+    width: fit-content
+}
+
+#social-media {
+    width: fit-content;
+}
+
+#social-media img {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+
+/* ==============================================
+                    MAIN BODY
+=============================================== */
+
+#main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+main > * {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slogan {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+#right {
+    position: relative;
+}
+
+#kraken-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+    margin-right: 0;
+}
+
+/* ==============================================
+                    FOOTER
+=============================================== */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ==============================================
+                MEDIA QUERIES
+=============================================== */
+
+@media only screen and (min-width: 1200px) {
+    #kraken-img {
+      object-fit: fill;
+    }
+  }
+
+/* ==============================================
+                    MENU PAGE
+=============================================== */
+
+#menu-title {
+    font-size: 3rem;
+}
+
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+    width: auto;
+}
