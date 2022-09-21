@@ -61,6 +61,11 @@ header > * {
     width: fit-content;
 }
 
+#nav >:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
 #social-media img {
     height: 50px;
     width: 50px;
