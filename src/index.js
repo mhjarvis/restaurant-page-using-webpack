@@ -1,10 +1,11 @@
 import { createFooter } from "./homepage/createFooter";
 import { createHeader } from "./homepage/createHeader";
-import { createMain } from "./homepage/createMain"
-import { createMenu } from "./menu/createMenu"
+import { createMain } from "./homepage/createMain";
+import { createMenu } from "./menu/createMenu";
+import { createContact } from "./contact/createContact";
 
 createHeader();
-createMain();
+createContact();
 createFooter();
 addListeners();
 
@@ -34,8 +35,7 @@ function addListeners() {
         contact.addEventListener('click', function() {
         resetContent();
         createHeader();
-        createMain();
-    //    creteContact();
+        createContact();
         createFooter();
         addListeners();
     })
