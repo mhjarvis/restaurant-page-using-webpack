@@ -32,7 +32,7 @@ let createMenu = () => {
     /* Create section right */
     createElement('#main', 'section', 'right');
     createElement('#right', 'img', 'kraken-img');
-    document.querySelector('#kraken-img').src = '../dist/images/kraken.png';
+    document.querySelector('#kraken-img').src = 'https://github.com/mhjarvis/restaurant-page-using-webpack/blob/main/dist/images/kraken.png?raw=true';
 }
 
 
