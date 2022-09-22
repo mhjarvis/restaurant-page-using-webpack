@@ -14,7 +14,7 @@ let createMain = () => {
     /* Create section right */
     createElement('#main', 'section', 'right');
     createElement('#right', 'img', 'kraken-img');
-    document.querySelector('#kraken-img').src = 'https://github.com/mhjarvis/restaurant-page-using-webpack/blob/main/dist/images/kraken.png?raw=true';
+    document.querySelector('#kraken-img').src = 'https://github.com/mhjarvis/restaurant-page-using-webpack/blob/75e9182c0d08fe36d2244c10336391c41bdafc29/dist/images/kraken.png';
 }
 
 export { createMain };
