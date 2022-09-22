@@ -22,9 +22,9 @@ const createHeader = function() {
     /* Create social media section */
     createElement('#header', 'div', 'social-media');
     createElement('#social-media', 'img', 'facebook');
-    document.getElementById('facebook').src = '../dist/images/facebook.png';
+    document.getElementById('facebook').src = 'https://github.com/mhjarvis/restaurant-page-using-webpack/blob/main/dist/images/facebook.png?raw=true';
     createElement('#social-media', 'img', 'instagram');
-    document.getElementById('instagram').src = '../dist/images/instagram.png';
+    document.getElementById('instagram').src = 'https://github.com/mhjarvis/restaurant-page-using-webpack/blob/main/dist/images/instagram.png?raw=true';
 }
 
 export { createHeader };
