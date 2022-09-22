@@ -61,6 +61,10 @@ header > * {
     width: fit-content;
 }
 
+#nav {
+    font-size: 1.2rem;
+}
+
 #nav >:hover {
     color: gray;
     text-decoration: underline;
@@ -149,4 +153,23 @@ footer {
     justify-content: space-evenly;
     height: 50%;
     width: auto;
+}
+
+/* ==============================================
+                    CONTACT
+=============================================== */
+
+#contact-title {
+    font-size: 2rem;
+}
+
+#left {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+#left > * {
+    margin: 30px;
 }
