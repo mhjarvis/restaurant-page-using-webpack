@@ -5,7 +5,7 @@ import { createMenu } from "./menu/createMenu";
 import { createContact } from "./contact/createContact";
 
 createHeader();
-createContact();
+createMain();
 createFooter();
 addListeners();
 
@@ -40,8 +40,6 @@ function addListeners() {
         addListeners();
     })
 }
-
-
 
 function resetContent() {
     const content = document.getElementById('content');
